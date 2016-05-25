@@ -1,0 +1,27 @@
+# praiserror #
+
+**praiserror** provides you with a useless and demoralizing error handler. Please turn your speakers on.
+
+
+## Code Examples ##
+
+```R
+library("praiserror")
+
+stop("An error was made")
+```
+
+
+## Installation ##
+
+[![CRAN](http://www.r-pkg.org/badges/version/praiserror)](http://cran.r-project.org/package=praiserror)
+[![Build Status](https://travis-ci.org/cloudyr/praiserror.png?branch=master)](https://travis-ci.org/cloudyr/praiserror)
+
+This package is not yet on CRAN and probably won't be. To install the latest development version you can pull a potentially unstable version directly from GitHub:
+
+```R
+if(!require("ghit")){
+    install.packages("ghit")
+}
+ghit::install_github("leeper/praiserror")
+```

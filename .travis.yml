@@ -1,0 +1,8 @@
+language: r
+sudo: required
+after_failure:
+  email: 
+    recipients:
+     - thosjleeper@gmail.com
+    on_success: change
+    on_failure: change

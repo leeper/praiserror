@@ -1,0 +1,15 @@
+Package: praiserror
+Type: Package
+Title: A Sarcastic and Demoralizing Error Handler
+Version: 0.1.1
+Date: 2016-05-25
+Authors@R: c(person("Thomas J.", "Leeper", role = c("aut", "cre"),
+                    email = "thosjleeper@gmail.com"))
+Maintainer: Thomas J. Leeper <thosjleeper@gmail.com>
+Description: Provides you with a useless and demoralizing error handler. Please turn your speakers on.
+License: GPL (>= 2)
+URL: https://github.com/cloudyr/praiserror
+BugReports: https://github.com/cloudyr/praiserror/issues
+Imports:
+    audio
+RoxygenNote: 5.0.1
